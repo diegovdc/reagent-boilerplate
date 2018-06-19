@@ -1,0 +1,35 @@
+{
+  "name": "reagent-frontend",
+  "version": "1.0.0",
+  "description": "To start the Figwheel compiler, navigate to the project folder and run the following command in the terminal:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "gulp": "gulp"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "0.18.0",
+    "gulp-notify": "3.2.0",
+    "gulp-plumber": "1.2.0",
+    "tap-logger": "1.2.0"
+  },
+  "devDependencies": {
+    "babel-loader": "8.0.0-beta.3",
+    "@babel/core": "7.0.0-beta.51",
+    "@babel/preset-env": "7.0.0-beta.51",
+    "frontmatter-markdown-to-json": "0.0.4",
+    "gulp": "3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-util": "^3.0.7",
+    "gulp-watch": "^4.3.5",
+    "webpack": "4.12.0",
+    "webpack-cli": "3.0.8"
+  }
+}
